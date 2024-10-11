@@ -1,0 +1,30 @@
+{
+  "name": "mi-primera-api-express",
+  "version": "1.0.0",
+  "description": "Mi primera API con express",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "dev": "tsx watch ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akuma2522/api-con-express.git"
+  },
+  "author": "Antony Antezana Cavero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akuma2522/api-con-express/issues"
+  },
+  "homepage": "https://github.com/Akuma2522/api-con-express#readme",
+  "dependencies": {
+    "express": "5.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/morgan": "^1.9.9",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3"
+  }
+}
